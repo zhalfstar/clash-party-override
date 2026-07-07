@@ -14,8 +14,8 @@ dns!:
     - 119.29.29.29
 
   nameserver:
-    - tls://223.5.5.5
-    - tls://1.12.12.12
+  - https://1.1.1.1/dns-query
+  - https://1.0.0.1/dns-query
 
 tun:
   enable: true
