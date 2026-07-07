@@ -16,6 +16,10 @@ dns!:
     - https://1.1.1.1/dns-query
     - https://1.0.0.1/dns-query
 
+  proxy-server-nameserver:
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+
   fake-ip-filter:
     - "*"
     - +.lan
