@@ -1,0 +1,14 @@
+dns!:
+  enable: true
+  use-hosts: true
+
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter-mode: blacklist
+
+  default-nameserver:
+    - tls://223.5.5.5
+
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
